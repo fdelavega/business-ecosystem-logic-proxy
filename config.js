@@ -66,55 +66,55 @@ config.endpoints = {
     },
     catalog: {
         path: 'DSProductCatalog',
-        host: 'apis.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-apis.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
     ordering: {
         path: 'DSProductOrdering',
-        host: 'apis.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-apis.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
     inventory: {
         path: 'DSProductInventory',
-        host: 'apis.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-apis.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
     charging: {
         path: 'charging',
-        host: 'charging.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-charging-backend.marketplace.svc.cluster.local',
         port: '8006',
         appSsl: false
     },
     rss: {
         path: 'DSRevenueSharing',
-        host: 'rss.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-rss.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
     party: {
         path: 'DSPartyManagement',
-        host: 'apis.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-apis.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
     billing: {
         path: 'DSBillingManagement',
-        host: 'apis.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-apis.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
     customer: {
         path: 'DSCustomerManagement',
-        host: 'apis.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-apis.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
     usage:  {
         path: 'DSUsageManagement',
-        host: 'apis.docker',
+        host: 'mp-business-api-ecosystem-biz-ecosystem-apis.marketplace.svc.cluster.local',
         port: '8080',
         appSsl: false
     },
