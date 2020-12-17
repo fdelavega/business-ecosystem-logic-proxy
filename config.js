@@ -147,7 +147,7 @@ config.publicPaths = [];
 
 config.indexes = {
     'engine': 'elasticsearch', // local or elasticsearch
-    'elasticHost': 'elastic.docker:9200',
+    'elasticHost': 'elasticsearch-master.marketplace.svc.cluster.local',
     'apiVersion': '7.5'
 };
 
